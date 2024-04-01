@@ -1,0 +1,99 @@
+/* Navigation.css */
+/* .navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar .nav-link {
+  float: left;
+  display: block;
+  color: rgb(36, 99, 206);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+.navbar .nav-link:hover {
+  background-color: rgb(119, 159, 229);
+  color: darkblue;
+  transform: scale(1.1);
+  transition: all 0.10s ease;
+} */
+
+.navbar {
+  background: linear-gradient(to right, #e8eaec, #399fce);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  padding: 10px 15px;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+.navbar .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.navbar .nav-link i {
+  font-size: 24px;
+  margin-bottom: -10px;
+}
+  
+  /* GraphPage.css */
+  .graph-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .graph {
+    width: 100%;
+    height: 400px;
+  }
+  
+  /* TablePage.css */
+  .table-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #ddd;
+  }
+  
+
